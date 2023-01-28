@@ -1,34 +1,14 @@
 # SZTE Web Tervezés Projekt
 
-## Weboldal sablonok
+Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás segítséget a kötelező projekt elkészítéséhez.
 
-### 1. Mérföldkő
+## Néhány tanács:
 
-Nem 5-ös szint, de alapnak nagyon jók. Bennük van szinte minden fontos HTML tag és részletesen dokumentálva van a CSS műkődése is.
-
-#### Egyszerű honlap #1
-
-[![TEgyszerű honlap #1](/img/img02.png)](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-1.zip)
-
-[Letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-1.zip)
-
-#### Egyszerű honlap #2
-
-[![TEgyszerű honlap #2](/img/img01.png)](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
-
-[Letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
-
-## Néhány jótanács
-
-- Csináljátok meg minél hamarabb a projektet, mivel sűrű lesz az év vége. A prog1 kötprog nagyon kemény és elviszi az időt.
-  - Az első mérföldkő könyebb. Ha tudjátok a HTML és a CSS alapjait, egy hét alatt le lehet tudni, de a szöveg írás és a design zabálja az időt.
-  - A 2. mérföldkő nehezebb. A PHP fura, meg kell érteni a logikáját. Legalább 2 hetet szánnék rá.
-- Olvassátok el részletesen a követelményeket és építsétek be a kötelező elemeket már a kezdeti tervbe! Egyszerűen lehet farmolni a pontokat, ha odafigyeltek.
+- Csináljátok meg minél hamarabb a projektet, sűrű lesz az év vége. A prog1 kötprog nagyon kemény és elviszi az időt.
+- Egyszerűen lehet farmolni a pontokat, csak figyeljetek a követelményekre.
 - Csakis relatív útvonalakat használjatok! (./assets/img.jpg vagy assets/img.jpg)
-- Készítsetek közösen egy "témát", amit minden oldalon használtok!
+- Készítsetek közösen egy "témát" (sablont), amit minden oldalon használtok!
 - Bejelentkezés és egy regisztráció oldalt megfelelő formokkal érdemes már az 1. Mérföldkőbe bele építeni.
-- Figyeljetek a beadási határidőkre és a téma választás határidejére ;)
-- Mindketten adjátok be a kész feladatot
 
 ## Feladat megoldásának lépései
 
@@ -51,6 +31,9 @@ Minden oldalnak egységesnek kell lennie, az az ha valaki kitalálja hogy legyen
 - Csakis relatív útvonalakat használjatok! (./assets/img.jpg vagy assets/img.jpg)
 
 Készítettem pár sablont, ami jó kiidulási alap lehet:
+
+- [Egyszerű honlap #1]() - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
+- [Egyszerű honlap #2]() - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
 
 Plágiumra figyelj! Ha másolsz a gyakvezérek észre veszik és értékelni fogják szép kerek 1-esekkel.
 
@@ -75,3 +58,21 @@ Tömörítésétek be a kész weblapot és a követelményeknek megfelelően adj
 ### 2. Mérföldkő
 
 Még készül :)
+
+## Weboldal sablonok
+
+### 1. Mérföldkő
+
+Nem 5-ös szint, de alapnak nagyon jók. Bennük van szinte minden fontos HTML tag és részletesen dokumentálva van a CSS műkődése is.
+
+#### Egyszerű honlap #1
+
+[![TEgyszerű honlap #1](/img/img02.png)](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-1.zip)
+
+[Letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-1.zip)
+
+#### Egyszerű honlap #2
+
+[![TEgyszerű honlap #2](/img/img01.png)](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
+
+[Letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
