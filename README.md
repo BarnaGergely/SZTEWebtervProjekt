@@ -2,6 +2,8 @@
 
 Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás segítséget a kötelező projekt elkészítéséhez.
 
+Követelmények  -  Sablonok  -  Videók
+
 ## Néhány tanács:
 
 - Csináljátok meg minél hamarabb a projektet, sűrű lesz az év vége. A prog1 kötprog nagyon kemény és elviszi az időt.
@@ -18,16 +20,18 @@ Egy HTML + CSS alapú weblap elkészítése
 
 #### 1.) Válasszatok témát
 
-#### 2.) Tervezzétek meg milyen oldalak lesznek, írjátok meg ezek szövegét és keresettek hozzá illusztrációkat, videókat, hangokat, táblázatokat, stb.
+Olyan témát válasszatok, amit szerettek és könnyű róla tartalmat találni.
 
-Én minden oldalhoz egy mappába gyűjtöttem képeket és egy word doksiba megírtam a szöveget.
+#### 2.) Tervezzétek meg milyen oldalak lesznek
 
-#### 3.) Készítsétek el az oldal "témáját" az összes oldalon közös részeket (header, footer, aside, stb.) és az általános formázásokat (betű készlet, betű méret, body, h1, h2, a, article, form, table, stb.)
+Érdemes előre megtervezni pontosan mennyi és milyen nevű oldalak lesznek. Én megírnám előre a szövegüket is és gyűjtenék hozzájuk képeket, hangokat, videókat és táblázatokat.
 
-Minden oldalnak egységesnek kell lennie, az az ha valaki kitalálja hogy legyen egy új menüpont a menüben, akkor azt az összes oldalon frissíteni kell. Ha útálsz kétszer dolgozni, tervezz előre! Készíts el egy "sablont", egy olyan HTML oldalt, ami szinte minden szükséges tag-et és formázást tartalmaz. Ezt lemásolod, átnevezed és átírod a tartalmát minden oldalon.
+#### 3.) Készítsétek el az oldal "témáját": az összes oldalon közös részeket (header, footer, aside, stb.) és az általános formázásokat (betű készlet, betű méret, body, h1, h2, a, article, form, table, stb.)
+
+Minden oldalnak egységesnek kell lennie, az az ha valaki kitalálja hogy legyen egy új menüpont a menüben, akkor azt az összes oldalon frissíteni kell. Ha útálsz kétszer dolgozni, tervezz előre! Közösen készítsetek el egy "sablont", egy olyan HTML oldalt, ami végleges. Ezt aztán lehet másolni, átnevezni és kicserélni a tartalmát, ahányszor csak kell.
 
 - A globális, minden oldalon használt formázásokat egy külön CSS fájlban tárold, amit minden oldalra beimportálsz.
-- A tág css szelektorokkal kezd a CSS megírását és onnan haladj az egyre specifikusabbak felé (pl. a sablonokban)
+- A tág css szelektorokkal kezd (pl. :root, *, body, h1, h2, a, stb.) a CSS megírását és onnan haladj az egyre specifikusabbak felé
 - Csakis relatív útvonalakat használjatok! (./assets/img.jpg vagy assets/img.jpg)
 
 Készítettem pár sablont, ami jó kiidulási alap lehet:
@@ -35,7 +39,7 @@ Készítettem pár sablont, ami jó kiidulási alap lehet:
 - [Egyszerű honlap #1]() - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
 - [Egyszerű honlap #2]() - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
 
-Plágiumra figyelj! Ha másolsz a gyakvezérek észre veszik és értékelni fogják szép kerek 1-esekkel.
+Plágiumra figyelj! Ha másolsz a gyakvezérek észre veszik és nem fognak kesztyűs kézzel bánni veled.
 
 #### 4.) Készítsétek el a konkrét oldalakat
 
@@ -58,21 +62,3 @@ Tömörítésétek be a kész weblapot és a követelményeknek megfelelően adj
 ### 2. Mérföldkő
 
 Még készül :)
-
-## Weboldal sablonok
-
-### 1. Mérföldkő
-
-Nem 5-ös szint, de alapnak nagyon jók. Bennük van szinte minden fontos HTML tag és részletesen dokumentálva van a CSS műkődése is.
-
-#### Egyszerű honlap #1
-
-[![TEgyszerű honlap #1](/img/img02.png)](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-1.zip)
-
-[Letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-1.zip)
-
-#### Egyszerű honlap #2
-
-[![TEgyszerű honlap #2](/img/img01.png)](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
-
-[Letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
