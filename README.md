@@ -2,7 +2,7 @@
 
 Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás segítséget a kötelező projekt elkészítéséhez.
 
-Követelmények  -  Sablonok  -  Videók
+[Követelmények](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/kovetelmenyek) :|: [Sablonok](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/sablonok) :|: [Videók]()
 
 ## Néhány tanács:
 
@@ -31,7 +31,7 @@ Olyan témát válasszatok, amit szerettek és könnyű róla tartalmat találni
 Minden oldalnak egységesnek kell lennie, az az ha valaki kitalálja hogy legyen egy új menüpont a menüben, akkor azt az összes oldalon frissíteni kell. Ha útálsz kétszer dolgozni, tervezz előre! Közösen készítsetek el egy "sablont", egy olyan HTML oldalt, ami végleges. Ezt aztán lehet másolni, átnevezni és kicserélni a tartalmát, ahányszor csak kell.
 
 - A globális, minden oldalon használt formázásokat egy külön CSS fájlban tárold, amit minden oldalra beimportálsz.
-- A tág css szelektorokkal kezd (pl. :root, *, body, h1, h2, a, stb.) a CSS megírását és onnan haladj az egyre specifikusabbak felé
+- A tág css szelektorokkal kezd (pl. :root, \*, body, h1, h2, a, stb.) a CSS megírását és onnan haladj az egyre specifikusabbak felé
 - Csakis relatív útvonalakat használjatok! (./assets/img.jpg vagy assets/img.jpg)
 
 Készítettem pár sablont, ami jó kiidulási alap lehet:
