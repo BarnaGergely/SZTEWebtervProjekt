@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/theme.css">
+
+    <title>Page Title</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img.jpg">
+
+    <!-- Page specific CSS -->
+    <style>
+        /* Page specific CSS */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a href="page1.html">Page1</a>
+            <a href="#">Page2</a>
+            <a id="website-title" class="active" href="#">My Website</a>
+            <a href="#">Page3</a>
+            <a href="#">Page4</a>
+        </nav>
+        <div class="hero">
+            <h1>My Website Tiltle</h1>
+            <p>A website created by me.</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <article>
+            <h2>Article Heading (h2)</h2>
+            <h5>Title description (h5), Dec 7, 2017</h5>
+            <div class="fakeimg center-block" style="height:200px; width: 70%;">Centered Image</div>
+            <p style="text-transform: capitalize;">Some text...<a href="#">a link</a></p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, molestiae?</p>
+        </article>
+        <section>
+            <h3>Section Heading (h3)</h3>
+            <h5>Title description (h5), Sep 2, 2017</h5>
+            <img id="illustration1" src="./assets/img.jpg" alt="Beautiful landscape">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad sed similique atque omnis consectetur animi neque commodi praesentium hic.</p>
+            <hr>
+            <p>Some text..</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ullam quae, iste, explicabo earum odit optio magni deleniti veritatis dolorem facilis corrupti voluptate quasi minus! Quod nobis blanditiis voluptas esse
+                voluptatum quidem ducimus, impedit doloremque totam quam veniam, voluptate soluta ipsam accusamus inventore. Doloremque repellendus corrupti sed alias maxime sequi!</p>
+        </section>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <h4>List Heading (h4)</h4>
+        <ul>
+            <li><strong>Text with strong importance. Typically displayed in bold.</strong></li>
+            <li><mark>Text that should be marked or highlighted.</mark></li>
+            <li><em>Emphasized text.</em></li>
+            <li><b>Bold text (without marking it as important).</b></li>
+            <li><q>Short quotation.</q></li>
+        </ul>
+        <h4>Ordered List Heading (h4)</h4>
+        <ol>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Perspiciatis, ratione assumenda.</li>
+        </ol>
+        <h2>multimedia</h2>
+        <div class="center-text">
+            <h3>Centered iframe video</h3>
+            <iframe class="center-block" src="https://www.youtube-nocookie.com/embed/G1IbRujko-A?controls=0" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+
+        <h3>Video from our website</h3>
+        <video controls loop>
+            <source src="./assets/video.webm" type="video/webm">
+            <source src="./assets/video.mp4" type="video/mp4">
+
+            Download the
+            <a href="./assets/video.webm">WEBM</a>
+            or
+            <a href="./assets/video.mp4">MP4</a>
+            video.
+        </video>
+
+        <h3>Audio from our website</h3>
+        <audio controls loop src="./assets/audio.mp3">
+            <a href="./assets/audio.mp3">Download audio</a>
+        </audio>
+
+        <table>
+            <caption>Table Caption</caption>
+            <thead>
+                <tr>
+                    <th>Lorem ipsum dolor sit amet.</th>
+                    <th>Minus est facere a tempora.</th>
+                    <th>Molestiae assumenda nisi laboriosam perferendis.</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>Officiis esse modi veritatis tempora.</td>
+                    <td>Nulla maxime odio cupiditate quia!</td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>Ducimus voluptatem eligendi dolorem maiores?</td>
+                    <td>Repellat facilis enim nesciunt obcaecati.</td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>Non reiciendis id aliquam laborum.</td>
+                    <td>Fugit ea veniam totam a.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form action="#">
+            <h2>Form</h2>
+            <fieldset>
+                <legend>Required fields</legend>
+
+                <label>Username <input type="text" placeholder="Enter Username" name="username" required></label><br>
+
+                <label>Email <input type="email" placeholder="Enter Email" name="email" required></label><br>
+
+                <label>Password <input type="password" placeholder="Enter Password" name="psw" required><br></label>
+
+                <label>Repeat Password <input type="password" placeholder="Repeat Password" name="psw-repeat" required></label><br>
+
+            </fieldset>
+            <br>
+
+            <label>Phone number <input type="tel" placeholder="Enter your phone number" name="phone"></label><br>
+            <label>Birthday <input type="date" name="birthday" min="1920-01-01"></label><br>
+            <label>Favorite color <input type="color" name="color"></label><br>
+
+            <p>By creating an account you agree to our <a href="#">Terms and Privacy</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+            <button type="reset" class="resetbtn">Reset</button>
+
+            <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </form>
+
+    </main>
+
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+
+</body>
+
+</html>

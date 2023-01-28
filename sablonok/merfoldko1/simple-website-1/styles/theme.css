@@ -1,0 +1,222 @@
+/* fixes common border collaption problems */
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+/* style the links */
+a {
+  text-decoration: none;
+  color: #13866f;
+}
+
+/* style the links, when mouse is over them */
+a:hover {
+  color: #0e5244;
+  text-shadow: 4px 4px 4px #33333333;
+}
+
+/* Makes h1 and h2 headings uppercase*/
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* hero/logo Title */
+.hero {
+  padding: 4.5rem;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.hero h1 {
+  font-size: 2.25rem;
+}
+
+/* Style the top navigation bar */
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.85rem 2rem;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Right-aligned link */
+nav a.right {
+  float: right;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Changes the active menu item (current page) color and makes it bold */
+nav a.active {
+  color: #1abc9c;
+  font-weight: bold;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Column container */
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Sidebar/right column */
+aside {
+  -ms-flex: 30%;
+  /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 2rem;
+}
+
+/* Main column */
+main {
+  -ms-flex: 70%;
+  /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 2rem;
+}
+
+/* Article */
+article {
+  background-color: #f1f1f1;
+  padding: 2rem;
+  margin: 0.75rem 0;
+  border-radius: 2rem;
+}
+
+/* converts any element to block and centers it */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* centers the text inside the block */
+.center-text {
+  text-align: center;
+}
+
+/* id selector, floats the image left */
+#illustration1 {
+  float: left;
+  margin-right: 2rem;
+  width: 30%;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 2rem;
+}
+
+/* locks the iframes (tipically Youtube videos) aspect ratio and sets size */
+iframe {
+  aspect-ratio: 16/9;
+  width: 50%;
+  border: 0;
+  margin: 1rem;
+}
+
+/* Sets wideo size */
+video {
+  width: 50%;
+}
+
+/* enable tradicional borders in table  */
+table {
+  border-collapse: collapse;
+}
+
+/* spacing and borders for table cells */
+td,
+th {
+  border: 1px solid #333;
+  padding: 0.5rem;
+}
+
+/* adds some space between form's input fields */
+input {
+  margin: 0.3rem 0.2rem;
+}
+
+/* adds some space between buttons */
+button,
+input[type="reset"],
+input[type="submit"] {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+/* adds shadow when the mouse is over buttons */
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  box-shadow: 4px 4px 4px #33333333;
+}
+
+/* Footer */
+footer {
+  padding: 2rem;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide (tablet), */
+@media screen and (max-width: 768px) {
+  /*make the two columns stack on top of each other instead of next to each other */
+  .row {
+    flex-direction: column;
+  }
+
+  /* decreases the amount of white space (padding) between the text */
+  main,
+  main article {
+    padding: 0.75rem;
+    margin: 1rem 0;
+  }
+
+  /* sets the image as wide and diasbles floating */
+  #illustration1 {
+    float: none;
+    width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide (mobile), */
+@media screen and (max-width: 480px) {
+  /* make the navigation links stack on top of each other instead of next to each other */
+  nav a {
+    float: none;
+    width: 100%;
+  }
+}
