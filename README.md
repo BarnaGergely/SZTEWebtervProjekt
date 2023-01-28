@@ -1,5 +1,15 @@
 # SZTE Web Tervezés Projekt
 
+## Weboldal sablonok
+
+### 1. Mérföldkő
+
+Nem 5-ös szint, de alapnak nagyon jók. Bennük van szinte minden fontos HTML tag és részletesen dokumentálva van a CSS műkődése is.
+
+#### Egyszerű honlap #1
+
+#### Egyszerű honlap #2
+
 ## Néhány jótanács
 
 - Csináljátok meg minél hamarabb a projektet, mivel sűrű lesz az év vége. A prog1 kötprog nagyon kemény és elviszi az időt.
