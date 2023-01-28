@@ -2,7 +2,7 @@
 
 Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás segítséget a kötelező projekt elkészítéséhez.
 
-[Követelmények](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/kovetelmenyek) :|: [Sablonok](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/sablonok) :|: [Videók]()
+**[Követelmények](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/kovetelmenyek)** :|: **[Sablonok](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/sablonok)** :|: **[Videók]()**
 
 ## Néhány tanács:
 
