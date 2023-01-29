@@ -36,8 +36,8 @@ Minden oldalnak egységesnek kell lennie, az az ha valaki kitalálja hogy legyen
 
 Készítettem pár sablont, ami jó kiidulási alap lehet:
 
-- [Egyszerű honlap #1]() - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
-- [Egyszerű honlap #2]() - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
+- [Egyszerű honlap #1](https://barnagergely.github.io/SZTEWebtervProjekt/sablonok/merfolko1/simple-website-1/) - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
+- [Egyszerű honlap #2](https://barnagergely.github.io/SZTEWebtervProjekt/sablonok/merfolko1/simple-website-2/) - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
 
 Plágiumra figyelj! Ha másolsz a gyakvezérek észre veszik és nem fognak kesztyűs kézzel bánni veled.
 
