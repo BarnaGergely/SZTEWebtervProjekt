@@ -1,6 +1,6 @@
 # SZTE Web Tervezés Projekt
 
-Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás segítséget a kötelező projekt elkészítéséhez.
+Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás segítséget a kötelező projekt elkészítéséhez:
 
 **[Követelmények](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/kovetelmenyek)** :|: **[Sablonok](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/sablonok)** :|: **[Videók]()**
 
@@ -12,15 +12,13 @@ Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás 
 - Készítsetek közösen egy "témát" (sablont), amit minden oldalon használtok!
 - Bejelentkezés és egy regisztráció oldalt megfelelő formokkal érdemes már az 1. Mérföldkőbe bele építeni.
 
-## Feladat megoldásának lépései
+## Projekt elkészítésének lépései
 
-### 1. Mérföldkő
-
-Egy HTML + CSS alapú weblap elkészítése
+### 1. Mérföldkő (HTML + CSS alapú weboldal)
 
 #### 1.) Válasszatok témát
 
-Olyan témát válasszatok, amit szerettek és könnyű róla tartalmat találni.
+Olyan témát válasszatok, amit szerettek, ismertek és könnyű róla tartalmat találni pl.: egy játék, valamilyen film kategóra, egy sorozat, valamilyen állat vagy állat faj, turisztika, eszköz bemutató
 
 #### 2.) Tervezzétek meg milyen oldalak lesznek
 

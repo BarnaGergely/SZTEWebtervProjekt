@@ -1,3 +1,15 @@
+/* HTML hierarchy visualizer
+  Uncomment this section to visualize all HTML element's border
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 1px solid blue }
+* * * * { outline: 1px solid purple }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 2px dotted green }
+* * * * * * * { outline: 2px dotted blue }
+* * * * * * * * { outline: 2px dotted purple }
+*/
+
 /* fixes common border collaption problems */
 * {
   box-sizing: border-box;
@@ -10,13 +22,13 @@ body {
   margin: 0;
 }
 
-/* style the links */
+/* Style the links */
 a {
   text-decoration: none;
   color: #13866f;
 }
 
-/* style the links, when mouse is over them */
+/* Style the links, when mouse is over them */
 a:hover {
   color: #0e5244;
   text-shadow: 4px 4px 4px #33333333;
@@ -28,7 +40,7 @@ h2 {
   text-transform: uppercase;
 }
 
-/* hero/logo Title */
+/* Hero/logo Title */
 .hero {
   padding: 4.5rem;
   text-align: center;
