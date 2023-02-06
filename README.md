@@ -1,4 +1,4 @@
-# SZTE Web Tervezés Projekt
+# SZTE Web Tervezés Projekt Cheatsheat
 
 Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás segítséget a kötelező projekt elkészítéséhez:
 
