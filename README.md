@@ -18,7 +18,7 @@ Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás 
 
 #### 1.) Válasszatok témát
 
-Olyan témát válasszatok, amit szerettek, ismertek és könnyű róla tartalmat találni pl.: egy játék, valamilyen film kategóra, egy sorozat, valamilyen állat vagy állat faj, turisztika, eszköz bemutató
+Olyan témát keressetek, amit szerettek, ismertek és könnyű róla tartalmat találni pl.: egy játék, valamilyen film kategória, egy sorozat, valamilyen állat faj, turisztikai blog, autó márka oldala, hírportál, stb.
 
 #### 2.) Tervezzétek meg milyen oldalak lesznek
 
