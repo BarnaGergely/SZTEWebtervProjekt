@@ -2,13 +2,13 @@
 
 Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás segítséget a kötelező projekt elkészítéséhez:
 
-**[Követelmények](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/kovetelmenyek)** :|: **[Sablonok](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/sablonok)** :|: **[Videók]()** :|: **[Gyakorlat anyaga](https://okt.inf.szte.hu/webtervezes/)** :|: [HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) :|: [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+**[Követelmények](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/kovetelmenyek)** :|: **[Sablonok](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/sablonok)** :|: **[Videók]()** :|: **[Gyakorlat anyaga](https://okt.inf.szte.hu/webtervezes/)** :|: **[HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference)** :|: **[CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)**
 
 ## Néhány tanács:
 
-- Csináljátok meg minél hamarabb a projektet, sűrű lesz az év vége. A prog1 kötprog nagyon kemény és elviszi az időt.
+- Csináljátok meg minél hamarabb a projektet! Sűrű lesz az év vége, a prog1 sok időt elvesz.
 - Egyszerűen lehet farmolni a pontokat, csak figyeljetek a követelményekre.
-- Csakis relatív útvonalakat használjatok! (./assets/img.jpg vagy assets/img.jpg)
+- Relatív útvonalakat használjatok! (./assets/img.jpg vagy assets/img.jpg)
 - Készítsetek közösen egy "témát" (sablont), amit minden oldalon használtok!
 - Bejelentkezés és egy regisztráció oldalt megfelelő formokkal érdemes már az 1. Mérföldkőbe bele építeni.
 
