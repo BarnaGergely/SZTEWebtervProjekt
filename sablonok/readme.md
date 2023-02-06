@@ -12,6 +12,6 @@ Nem 5-ös szint, de alapnak nagyon jók. Bennük van szinte minden fontos HTML t
 
 ### Egyszerű honlap sablon #2
 
-[![TEgyszerű honlap #2](/img/img01.png)](https://barnagergely.github.io/SZTEWebtervProjekt/simple-website-2/)
+[![TEgyszerű honlap #2](/img/img01.png)](https://barnagergely.github.io/SZTEWebtervProjekt/sablonok/merfoldko1/simple-website-2/)
 
 [Letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
