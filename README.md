@@ -24,32 +24,36 @@ Olyan témát válasszatok, amit szerettek, ismertek és könnyű róla tartalma
 
 Érdemes előre megtervezni pontosan mennyi és milyen nevű oldalak lesznek. Én megírnám előre a szövegüket is és gyűjtenék hozzájuk képeket, hangokat, videókat és táblázatokat.
 
-#### 3.) Készítsétek el az oldal "témáját": az összes oldalon közös részeket (header, footer, aside, stb.) és az általános formázásokat (betű készlet, betű méret, body, h1, h2, a, article, form, table, stb.)
+#### 3.) Készítsétek el az oldal "témáját"
 
-Minden oldalnak egységesnek kell lennie, az az ha valaki kitalálja hogy legyen egy új menüpont a menüben, akkor azt az összes oldalon frissíteni kell. Ha útálsz kétszer dolgozni, tervezz előre! Közösen készítsetek el egy "sablont", egy olyan HTML oldalt, ami végleges. Ezt aztán lehet másolni, átnevezni és kicserélni a tartalmát, ahányszor csak kell.
+Téma alatt az összes oldalon közös részeket (header, footer, aside, stb.) és az általános formázásokat (betű készlet, betű méret, body, h1, h2, a, article, form, table, stb.) értem.
 
-- A globális, minden oldalon használt formázásokat egy külön CSS fájlban tárold, amit minden oldalra beimportálsz.
-- A tág css szelektorokkal kezd (pl. :root, \*, body, h1, h2, a, stb.) a CSS megírását és onnan haladj az egyre specifikusabbak felé
+Minden oldalnak egységesnek kell lennie. Ha valaki kitalálja hogy legyen egy új menüpont a menüben, akkor azt az összes oldalon frissíteni kell. Ha útálsz kétszer dolgozni, tervezz előre! Közösen készítsetek el egy "sablont", egy olyan oldalt, ami végleges. Ezt aztán lehet másolni, átnevezni és kicserélni a tartalmát, ahányszor csak kell.
+
+- A globális, minden oldalon használt formázásokat egy külön CSS fájlban tároljátok, amit minden oldalra belinkeltek.
+- A tág css szelektorokkal kezdjétek (pl. :root, *, body, h1, h2, a, stb.) a CSS megírását és onnan haladjatok az egyre specifikusabbak felé
 - Csakis relatív útvonalakat használjatok! (./assets/img.jpg vagy assets/img.jpg)
 
-Készítettem pár sablont, ami jó kiidulási alap lehet:
+**Készítettem pár sablont, ami jó kiidulási alap lehet:**
 
 - [Egyszerű honlap #1](https://barnagergely.github.io/SZTEWebtervProjekt/sablonok/merfoldko1/simple-website-1/) - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
 - [Egyszerű honlap #2](https://barnagergely.github.io/SZTEWebtervProjekt/sablonok/merfoldko1/simple-website-2/) - [letöltés](https://github.com/BarnaGergely/SZTEWebtervProjekt/raw/main/sablonok/merfoldko1/simple-website-2.zip)
 
-Plágiumra figyelj! Ha másolsz a gyakvezérek észre veszik és nem fognak kesztyűs kézzel bánni veled.
+Plágiumra figyeljetek! Ha másoltok a gyakvezérek észre veszik és nem fognak kesztyűs kézzel bánni veletek.
 
 #### 4.) Készítsétek el a konkrét oldalakat
 
 - Figyeljetek a követelményekre, használjatok minden szükséges tag-et és selectort.
-- Ha nincs ötletetek a layoutra, neten rákeresve hogy HTML layout végtelen mennyiségűt találhattok
+- Ha nincs ötletetek, milyen tartalom, milyen elrendezésben lehetne az oldalon, Pinteresten rákeresve hogy ["website layout"](https://pinterest.com/search/pins/?q=website%20layout), ["website wireframe"](https://pinterest.com/search/pins/?q=website%20wireframe) vagy ["webdesign"](https://pinterest.com/search/pins/?q=webdesign) végtelen mennyiségű ötletet találhattok találhattok.
+
+**[Kész HTML+CSS "modulok", amikből "inspirálódhattok"](https://www.w3schools.com/howto/default.asp)**
 
 #### 5.) Validáljátok az oldalt és keressetek hibákat
 
-Attól hogy egy oldal működik és jól néz ki, egyáltalán nem biztos hogy szintaktikailag hibátlan és nem dob hibákat a böngészőben.
+Attól hogy egy oldal működik és jól néz ki, egyáltalán nem biztos hogy szintaktikailag hibátlan és nem dob hibákat a konzolba. Minden oldalt ellenőrizzetek le validátorral és a böngésző fejlesztői eszközeivel!
 
-- HTML Validator:
-- CSS Validator:
+- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 A böngésző fejlesztői eszközök menüjében érdemes a console-ra ránézni, minden egyes oldalon, ha valami nem szintaktikai hiba van (pl.: hibás útvonal), ott szokott megjelenni.
 
