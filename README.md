@@ -2,7 +2,7 @@
 
 Ez a repo abban segít, hogy ne bukj meg webtervből. Össze szedtem egy rakás segítséget a kötelező projekt elkészítéséhez:
 
-**[Követelmények](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/kovetelmenyek)** :|: **[Sablonok](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/sablonok)** :|: **[Videók]()**
+**[Követelmények](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/kovetelmenyek)** :|: **[Sablonok](https://github.com/BarnaGergely/SZTEWebtervProjekt/tree/main/sablonok)** :|: **[Videók]() :|: [Gyakorlat anyaga](https://okt.inf.szte.hu/webtervezes/)**
 
 ## Néhány tanács:
 
@@ -24,6 +24,8 @@ Olyan témát válasszatok, amit szerettek, ismertek és könnyű róla tartalma
 
 Érdemes előre megtervezni pontosan mennyi és milyen nevű oldalak lesznek. Én megírnám előre a szövegüket is és gyűjtenék hozzájuk képeket, hangokat, videókat és táblázatokat.
 
+A csapat munkához nagyon hasznos lehet a [Google Drive](https://www.google.com/drive/download/) vagy a [Github](https://github.com/).
+
 #### 3.) Készítsétek el az oldal "témáját"
 
 Téma alatt az összes oldalon közös részeket (header, footer, aside, stb.) és az általános formázásokat (betű készlet, betű méret, body, h1, h2, a, article, form, table, stb.) értem.
@@ -33,6 +35,8 @@ Minden oldalnak egységesnek kell lennie. Ha valaki kitalálja hogy legyen egy �
 - A globális, minden oldalon használt formázásokat egy külön CSS fájlban tároljátok, amit minden oldalra belinkeltek.
 - A tág css szelektorokkal kezdjétek (pl. :root, *, body, h1, h2, a, stb.) a CSS megírását és onnan haladjatok az egyre specifikusabbak felé
 - Csakis relatív útvonalakat használjatok! (./assets/img.jpg vagy assets/img.jpg)
+
+Én [VSCode](https://code.visualstudio.com/)-ot ajánlok kód szerkesztőnek [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) webszerver bővítménnyel kiegészítve, de például [Webstorm](https://www.jetbrains.com/webstorm/) + [XAMPP](https://www.apachefriends.org/) (Appache webszerver) is tökéletesen megfelel.
 
 **Készítettem pár sablont, ami jó kiidulási alap lehet:**
 
@@ -46,7 +50,7 @@ Plágiumra figyeljetek! Ha másoltok a gyakvezérek észre veszik és nem fognak
 - Figyeljetek a követelményekre, használjatok minden szükséges tag-et és selectort.
 - Ha nincs ötletetek, milyen tartalom, milyen elrendezésben lehetne az oldalon, Pinteresten rákeresve hogy ["website layout"](https://pinterest.com/search/pins/?q=website%20layout), ["website wireframe"](https://pinterest.com/search/pins/?q=website%20wireframe) vagy ["webdesign"](https://pinterest.com/search/pins/?q=webdesign) végtelen mennyiségű ötletet találhattok találhattok.
 
-**[Kész HTML+CSS "modulok", amikből "inspirálódhattok"](https://www.w3schools.com/howto/default.asp)**
+**[Kész HTML+CSS "modulok", amikből "inspirálódhattok"](https://www.w3schools.com/howto/default.asp).**
 
 #### 5.) Validáljátok az oldalt és keressetek hibákat
 
